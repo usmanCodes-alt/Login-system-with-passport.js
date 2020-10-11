@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/public/assets/styles.css">
+</head>
+
+<body>
+    <h1>Login System</h1>
+    <div class="main">
+        <div class="form-parent-container">
+            <form action="/login" method="POST">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required autocomplete="off">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required autocomplete="off">
+                </div>
+                <button class="form-btn" type="submit">Submit</button>
+                <p>
+                    Don't have an account? Click <a href="/register">here</a> to register.
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
